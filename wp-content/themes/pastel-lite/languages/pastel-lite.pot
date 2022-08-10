@@ -1,0 +1,248 @@
+# Copyright (C) 2022 Viva Themes
+# This file is distributed under the GNU GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pastel Lite 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/pastel-lite\n"
+"POT-Creation-Date: 2022-03-10 10:22:56+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:14
+msgid "Oops! That page can&rsquo;t be found"
+msgstr ""
+
+#: archive.php:25
+msgid "Not Found"
+msgstr ""
+
+#. translators: %s: post title
+#: comments.php:21
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:25
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:40
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:43
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:46
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:58
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:32
+msgid "Y"
+msgstr ""
+
+#: footer.php:32
+msgid "http://wordpress.org/"
+msgstr ""
+
+#. translators: %s: Powered by
+#: footer.php:35
+msgid "Powered by %s."
+msgstr ""
+
+#. translators: %1$s: Theme by
+#: footer.php:40
+msgid "Theme by %1$s."
+msgstr ""
+
+#: functions.php:41
+msgid "Small"
+msgstr ""
+
+#: functions.php:46
+msgid "Regular"
+msgstr ""
+
+#: functions.php:51
+msgid "Medium"
+msgstr ""
+
+#: functions.php:56
+msgid "Large"
+msgstr ""
+
+#: functions.php:61
+msgid "Huge"
+msgstr ""
+
+#: functions.php:75
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:76
+msgid "Front Menu"
+msgstr ""
+
+#: functions.php:77
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:100
+msgid "Top Widget"
+msgstr ""
+
+#: functions.php:112
+msgid "Footer Widgets"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not supported
+#. 	by this font, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:136
+msgctxt "Nunito font: on or off"
+msgid "on"
+msgstr ""
+
+#: header.php:50
+msgid "Search"
+msgstr ""
+
+#: inc/block-patterns.php:15
+msgid "Pastel Blocks"
+msgstr ""
+
+#: inc/block-patterns.php:28
+msgid "Team Members"
+msgstr ""
+
+#: inc/block-patterns.php:39
+msgid "Cover block with text and button"
+msgstr ""
+
+#: inc/block-patterns.php:50
+msgid "Services Block"
+msgstr ""
+
+#: inc/block-patterns.php:61
+msgid "Partners Block"
+msgstr ""
+
+#: inc/customizer.php:22
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer.php:39
+msgid "Add copyright text in the footer."
+msgstr ""
+
+#: inc/customizer.php:58
+msgid "General text color"
+msgstr ""
+
+#: inc/customizer.php:79
+msgid "Header background"
+msgstr ""
+
+#: inc/customizer.php:100
+msgid "Menu links"
+msgstr ""
+
+#: inc/customizer.php:121
+msgid "Change the theme purple color throughout"
+msgstr ""
+
+#: inc/customizer.php:142
+msgid "Change the theme yellow color throughout"
+msgstr ""
+
+#: inc/customizer.php:163
+msgid "Footer background"
+msgstr ""
+
+#: inc/customizer.php:184
+msgid "Titles color"
+msgstr ""
+
+#: inc/extras.php:41 inc/extras.php:43
+msgid "Read More"
+msgstr ""
+
+#: inc/extras.php:62
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/extras.php:64
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/extras.php:66
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/extras.php:72
+msgid "Archives"
+msgstr ""
+
+#: inc/extras.php:82
+msgid "Skip to the content"
+msgstr ""
+
+#: index.php:23
+msgid "You don&#39;t have any posts yet."
+msgstr ""
+
+#: page.php:26 single.php:27
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Search Results for
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:29
+msgid "No results."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Pastel Lite"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://vivathemes.com/pastel-lite-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Pastel Lite is a clean and responsive WordPress theme. It uses the latest "
+"features that come with WordPress enabling you to build your website using "
+"blocks and the patterns we have especially designed for this theme. Change "
+"the colors directly from the customizer. Easily upload your logo image and "
+"favicon, styling for Contact Form 7 plugin are among the features. RTL "
+"support and accessibility ready. Difference with pro version is WooCommerce "
+"& Jetpack support."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Viva Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://vivathemes.com"
+msgstr ""

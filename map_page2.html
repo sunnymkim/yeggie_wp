@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Speech Therapy WebApp</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <!-- <link type="text/css" rel="stylesheet" href="style.css"> -->
+    <style>
+        body, html {
+          margin: 0;
+        }
+        
+        html {
+          height: 100%;
+        }
+        
+        body {
+          height: inherit;
+          overflow: scroll;
+          max-width: 800px;
+          margin: 0 auto;
+        }
+        
+        h1, p {
+          font-family: sans-serif;
+          text-align: center;
+          padding: 20px;
+          float: center;
+        }
+        
+        h3 {
+          text-align: center;
+        }
+        
+        button {
+          font-family: OCR A Std, monospace;
+          text-align: center;
+          padding: 10px;
+          font-size: 20px;
+          margin-right: 20px;
+          background-color: rgb(210, 240, 250);
+          margin-left: 20px;
+          margin-top: 20px;
+          height: 200px;
+          width: 200px;
+          margin-bottom: 20px;
+          float: left;
+          border-radius: 10%;
+          /* display: flex; */
+        }
+
+        button:hover {
+            background-color:rgb(188, 235, 250) ;
+        }
+        
+        div {
+          height: 100px;
+          /* overflow: auto;*/
+          position: absolute;
+          bottom: 5%;
+          right: 0;
+          left: 0;
+          background-color: rgba(255,255,255,0.2);
+        }
+       
+        @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+        }
+     </style>
+    <script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io-stream/0.9.1/socket.io-stream.js"></script>
+
+</head>
+
+<body>
+    <h1>Speech Therapy WebApp MAP </h1>
+    <button onclick="window.location.href='https://www.yeggiwithus.com:8080/';"> <!--groupA-->
+        -rl, -rd, -rld
+    </button>
+    <button onclick="window.location.href='https://www.yeggiwithus.com:8080/';"> <!--groupB-->
+        -rm, -rn
+    </button>
+    <button onclick="window.location.href='https://www.yeggiwithus.com:8080/';"> <!--groupC-->
+        -nt, -mt, -lt, -rt
+    </button>
+    <button onclick="window.location.href='https://www.yeggiwithus.com:8080/';"> <!--groupD-->
+        cr-,  br-, tr-
+    </button>
+    <button onclick="window.location.href='https://www.yeggiwithus.com:8080/';"> <!--groupE-->
+        s, z, c
+    </button>
+    <button onclick="window.location.href='https://www.yeggiwithus.com:8080/';"> <!--groupF-->
+        sh-, ch-, th-
+    </button>
+    <button onclick="window.location.href='https://www.yeggiwithus.com:8080/';"> <!--groupG-->
+        -o, -oo, -ah, -uh
+    </button>
+    <button onclick="window.location.href='https://www.yeggiwithus.com:8080/';"> <!--groupH-->
+        f-, ph-, h-, wh-
+    </button>
+    <button onclick="window.location.href='https://www.yeggiwithus.com:8080/';"> <!--groupI-->
+        -or, -our, -ear, -ar
+    </button>
+    <button onclick="window.location.href='https://www.yeggiwithus.com:8080/';"> <!--groupJ-->
+        fr-, thr-, shr-
+    </button>
+
+    <?php
+
+
+        // Load WordPress Bootstrap
+        //require_once __DIR__ . '/wp-admin/admin.php';
+
+        //Load WordPress dashboard API
+        require_once ABSPATH . 'wp-admin/includes/dashboard.php';
+
+        /*
+        wp_dashboard_setup();
+
+        wp_enqueue_script( 'dashboard' );
+
+        if ( current_user_can( 'install_plugins' ) ) {
+        wp_enqueue_script( 'plugin-install' );
+        wp_enqueue_script( 'updates' );
+        }
+        if ( current_user_can( 'upload_files' ) ) {
+        wp_enqueue_script( 'media-upload' );
+        }
+        add_thickbox();
+
+        if ( wp_is_mobile() ) {
+        wp_enqueue_script( 'jquery-touch-punch' );
+        }
+
+        $option = get_current_user_id();
+        print($option);
+        */
+        print "Hello World!!!!!!!!!!!!!!!!!!!!!";
+    ?>
+        <!-- include("wp-includes/user.php");
+        include("wp-includes/pluggable.php");
+        include("wp-includes/plugin.php");
+        add_action('init','test_function');
+        function test_function(){
+          print get_current_user_id();
+        }
+        test_function(); -->
+</body>
+
+</html>

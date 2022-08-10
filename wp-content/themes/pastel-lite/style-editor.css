@@ -1,0 +1,458 @@
+.wp-block {
+	font-family: 'Nunito Sans', arial, helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #000;
+	max-width: 720px;
+}
+
+.wp-block[data-align="wide"] {
+    max-width: 1080px;
+}
+
+.wp-block[data-align="full"] {
+    max-width: none;
+}
+
+.editor-post-title__block, .editor-post-title__input {
+	font-family: 'Nunito Sans', arial, helvetica, sans-serif;
+	text-transform: none;
+  font-weight: 600;
+  color: #000;
+  font-size: 44px;
+  text-align: center;
+}
+
+.wp-block h2 {
+	color: #000000;
+	margin:0;
+	padding:0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-transform: none;
+	font-size: 32px;
+	font-weight: 600;
+	font-family: 'Nunito Sans', arial, helvetica, sans-serif;
+}
+.wp-block h3 {
+	color: #000000;
+	margin:0;
+	padding:0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-transform: none;
+	font-size: 26px;
+	font-weight: 600;
+	font-family: 'Nunito Sans', arial, helvetica, sans-serif;
+}
+.wp-block h4 {
+	color: #000000;
+	margin:0;
+	padding:0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-transform: none;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Nunito Sans', arial, helvetica, sans-serif;
+}
+.wp-block h5 {
+	color: #000000;
+	margin:0;
+	padding:0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-transform: none;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: 'Nunito Sans', arial, helvetica, sans-serif;
+}
+
+.wp-block h6 {
+	color: #000000;
+	margin:0;
+	padding:0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-transform: none;
+	font-size: 14px;
+	font-weight: 600;
+	font-family: 'Nunito Sans', arial, helvetica, sans-serif;
+}
+
+.editor-post-title__block .editor-post-title__input {
+	font-family: 'Nunito Sans', arial, helvetica, sans-serif;
+	text-transform: none;
+    font-weight: 400;
+    color: #000;
+    font-size: 44px;
+    text-align: center;
+}
+
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+	max-width: 100%;
+}
+
+.wp-block-separator {
+    border-bottom: solid 1px #eaeaea;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.jetpack-field-label__input.jetpack-field-label__input.jetpack-field-label__input {
+	font-size: 13px;
+    font-family: 'Nunito Sans', arial, helvetica, sans-serif;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    color: #303030;
+    letter-spacing: 2px;
+}
+
+.jetpack-field-label .required {
+    font-size: 13px;
+    font-family: 'Nunito Sans', arial, helvetica, sans-serif;
+    font-weight: 300;
+	text-transform: none;
+    color: #aaa;
+   	letter-spacing: 0;
+}
+
+.jetpack-field .components-text-control__input:focus, .jetpack-field .components-textarea-control__input:focus,
+.jetpack-field .components-text-control__input, .jetpack-field .components-textarea-control__input{
+	border: solid 1px #999;
+	border-radius: 0px;
+	padding: 10px 8px;
+}
+
+.wp-block-button__link {
+	background-color: #333;
+	box-shadow: 0px 8px 15px rgba(0,0,0,.2);
+	border-radius: 4px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.wp-block a {
+	color: #333;
+}
+
+.wp-block-cover.has-background-dim .jetpack-field .components-text-control__input, .jetpack-field .components-textarea-control__input {
+	background: transparent
+}
+
+.wp-block-cover.has-background-dim, .wp-block-cover.has-background-dim p, .wp-block-cover.has-background-dim h1, .wp-block-cover.has-background-dim h2, .wp-block-cover.has-background-dim h3, .wp-block-cover.has-background-dim h4, .wp-block-cover.has-background-dim h5, .wp-block-cover.has-background-dim h6, .wp-block-cover.has-background-dim .jetpack-field-label__input.jetpack-field-label__input.jetpack-field-label__input, .wp-block-cover.has-background-dim .wp-block, .wp-block-cover.has-background-dim .jetpack-field .components-text-control__input:focus, .wp-block-cover.has-background-dim .jetpack-field .components-textarea-control__input:focus, .wp-block-cover.has-background-dim .jetpack-field .components-text-control__input, .wp-block-cover.has-background-dim .jetpack-field .components-textarea-control__input  {
+	color: #fff;
+}
+
+.wp-block-cover.has-background-dim .wp-block-button__link {
+	background: #fff;
+    color: #000;
+}
+
+.wp-block-cover.has-background-dim a {
+	color: #fff;
+}
+
+.teammembers {
+	margin-top: 50px;
+}
+
+.teammembers .wp-block-column {
+	position: relative;
+	text-align: center;
+}
+
+.teammembers .wp-block-column figure {
+	line-height: 70%;
+	margin: 0;
+	border-radius: 10px;
+	box-shadow: 0px 8px 15px rgba(0,0,0,.2);
+}
+
+.teammembers h3 {
+	margin-top: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	font-size: 22px;
+	font-weight: 300;
+	color: #000;
+	text-transform: none;
+	line-height: 100%;
+	position: relative;
+}
+
+.teammembers p {
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	line-height: 130%;
+}
+
+.pastelcover .wp-block {
+	text-align: center!important;
+}
+
+.serviceblock {
+	width: 100%;
+	clear: left;
+	margin-bottom: 120px;
+	position: relative;
+	column-gap: 80px;
+}
+
+.serviceblock .wp-block-column {
+	position:relative;
+}
+
+.serviceblock .wp-block-column:nth-child(2) {
+	margin-top: 40px;
+}
+
+.serviceblock .wp-block-column:nth-child(2):after {
+  content: '';
+  position: absolute;
+  left: -40px;
+  top: -20px;
+  width: 190px;
+  height: 120px;
+  background: none;
+	border-left: solid 1px #ccc;
+	border-top: solid 1px #ccc;
+	border-radius: 20px 0 0 0;
+  z-index: -1;
+}
+
+
+.serviceblock h3 {
+	color: #000;
+	font-weight: 300;
+	text-transform: none;
+}
+
+.serviceblock .wp-block-button__link {
+	background: #333;
+	box-shadow: 0px 8px 15px rgba(0,0,0,.2);
+  padding: 10px 34px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+  float: left;
+  clear: left;
+  font-size: 13px;
+  font-weight: 700;
+  transition: all .3s ease;
+}
+
+.serviceblock .wp-block-button__link:hover {
+	box-shadow: 0px 8px 15px rgba(0,0,0,.5);
+	opacity: 1;
+}
+
+.pastelcover {
+	padding-top: 240px;
+	padding-bottom: 240px;
+	text-align: center;
+	line-height: 300%;
+	font-size: 16px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.pastelcover p {
+	color: #fff;
+}
+
+
+.pastelcover .wp-block-buttons>.wp-block-button:last-child {
+	margin-right: auto;
+}
+
+.pastelcover .wp-block-button {
+	margin: 0 auto!important;
+}
+
+.pastelcover .wp-block-button__link {
+	background: #ffd452;
+	border-radius: 4px;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+	padding: 16px 34px;
+	line-height: 180%;
+	opacity: .8;
+}
+
+.pastelcover .wp-block-button__link:hover {
+	opacity: 1;
+}
+
+.pastelcover .wp-block-cover__inner-container {
+	max-width: 860px;
+}
+
+.partners .wp-block-column {
+	border: solid 1px #eaeaea;
+	border-radius: 5px;
+  margin: 0;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.alignfull {
+  margin: 32px calc(50% - 50%)!important;
+  max-width: 100%;
+  width: 100%;
+}
+
+h2.wc-block-featured-category__title {
+	color: #fff;
+	font-weight: 400;
+}
+
+.wc-block-featured-category {
+	position: relative;
+}
+
+.wc-block-featured-category__link {
+	opacity: .9;
+	color: #333;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 13px;
+	box-shadow: none;
+	padding: 0;
+}
+
+.wc-block-featured-category .wp-block-button__link {
+	background-color: #ffd452;
+	color: #333;
+	font-size: 13px;
+}
+
+h2.wc-block-components-title {
+	font-size: 16px;
+}
+
+.wc-block-components-main.wc-block-cart__main {
+	background: #f7f7f7!important;
+	border: solid 1px #eaeaea;
+	padding-right: 0;
+}
+
+.is-large.wc-block-cart .wc-block-cart-items:after {
+	opacity: 0;
+}
+
+.is-large.wc-block-cart .wc-block-cart-items td:after {
+	border-color: #eaeaea;
+	opacity: 1;
+}
+
+.wc-block-components-main.wc-block-cart__main input {
+	min-height: 20px!important;
+}
+
+.wc-block-cart__submit-container a {
+	color: #fff;
+}
+
+.wc-block-grid__products li {
+	margin-left: 0;
+	text-align: left;
+}
+
+.wc-block-grid__products a {
+	text-decoration: none;
+}
+
+.wc-block-grid__products .wc-block-grid__product-image img {
+	border-radius: 10px;
+}
+
+.wc-block-grid__products del, .wc-block-grid__products ins {
+	color: #000;
+}
+
+.wc-block-grid__product-title {
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.wc-block-grid__product-onsale {
+	margin: -.5em -.5em 0 0;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background-color: rgba(255,255,255,.6);
+	border: solid 1px #eaeaea;
+	height: 3.236em;
+  width: 3.236em;
+  padding: .202em;
+	line-height: 3.236;
+	border-radius: 100%;
+	color: #000;
+  font-size: .857em;
+	font-weight: 700;
+	text-transform: none;
+	border: none;
+}
+
+.wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link {
+	background: #544a7d;
+  color: #fff;
+  padding: 14px 20px;
+  transition: all .3s ease;
+  font-size: 13px;
+	font-weight: 600;
+	line-height: 1;
+	text-align: left;
+	border-radius: 4px;
+}
+
+.wc-block-components-button:not(.is-link) {
+	background-color: #544a7d;
+	border-radius: 4px;
+}
+
+a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart {
+	background: #544a7d;
+}
+
+.wc-block-components-checkout-step--with-step-number .wc-block-components-checkout-step__container:after,
+.wc-block-components-form .wc-block-components-checkout-step .wc-block-components-checkout-step__heading:after {
+	border-left: none;
+}
+
+.wc-block-components-order-summary-item__quantity {
+	border: 1px solid #000;
+}
+
+h2.wc-block-components-title.wc-block-components-checkout-step__title {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+.wc-block-components-text-input input {
+	border: solid 1px #eaeaea!important;
+	border-radius: 0!important;
+}
+
+.wc-block-components-button:not(.is-link):active, .wc-block-components-button:not(.is-link):disabled, .wc-block-components-button:not(.is-link):focus, .wc-block-components-button:not(.is-link):hover {
+	background-color: #544a7d;
+	opacity: 1;
+	font-size: 13px;
+	border-radius: 4px;
+}
+
+.is-large.wc-block-cart .wc-block-cart__totals-title:after,
+.wc-block-cart .wc-block-components-totals-footer-item:after,
+.wc-block-checkout__sidebar .wc-block-components-totals-footer-item:after, .wc-block-checkout__sidebar .wc-block-components-totals-taxes:after,
+.wc-block-components-panel.has-border:after,
+.wc-block-checkout__payment-method .wc-block-components-radio-control-accordion-option:after, .wc-block-checkout__payment-method .wc-block-components-radio-control__option:after {
+	border-color: #eaeaea;
+	opacity: 1;
+}
